@@ -12,4 +12,13 @@ puts "#{array}"
 puts "\n Novo Array"
 puts "#{new_array}"
 
-puts "\n "
+#Esse abaixo altera o array, o de cima não. 
+
+puts "\n Executando map multiplicando cada item por 2"
+array.map! do |a|
+    a * 2
+end
+
+puts "\n Array Original"
+puts "#{array}"
+puts ''
